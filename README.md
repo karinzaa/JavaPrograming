@@ -8,6 +8,6 @@
 * This is scr in TNI-104 subject.</n>
 
 ### Project Infomation. </n>
-* This project dev on `Java JDK 1.8 or a later update.`</n>
+* This project dev on `Java JDK 1.8 or a later update`.</n>
 
 >***Require `Java JDK 1.8 or a later update.`***

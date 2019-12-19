@@ -6,13 +6,13 @@ public class Supplier {
 		
 	   IceCream order = new IceCream();
 		
-		order.setFlavor(Integer.parseInt(JOptionPane.showInputDialog("[1]Vanilla Flavor\n[2]Chocolate Flavor\n[3]Green Tea Flavor")));
+		order.setFlavor(Integer.parseInt(JOptionPane.showInputDialog("[1] Vanilla Flavor\n[2] Chocolate Flavor\n[3] Green Tea Flavor")));
 	  
 		int bottle =0;
 		
 		while(order.checkFlavor()==false)
 		{
-			order.setFlavor(Integer.parseInt(JOptionPane.showInputDialog("Sorry,please input only1,2, or 3")));
+			order.setFlavor(Integer.parseInt(JOptionPane.showInputDialog("Sorry,please input only 1, 2, or 3")));
 		}
          int bucket =(Integer.parseInt(JOptionPane.showInputDialog("How many bucket of "+order.getFlavor()+":")));
          
@@ -20,11 +20,11 @@ public class Supplier {
         	 bucket =(Integer.parseInt(JOptionPane.showInputDialog("How many bucket of "+order.getFlavor()+":")));
          }
          
-         int top=(Integer.parseInt(JOptionPane.showInputDialog("[1]Whip-cream\n[2]Caramel\n[3]Honey\n[4]Not get order")));
+         int top=(Integer.parseInt(JOptionPane.showInputDialog("[1] Whip-cream\n[2] Caramel\n[3] Honey\n[4] Not get order")));
          order.setTopping(top);
          while(order.checkTopping()==false)
  		{
- 			top=(Integer.parseInt(JOptionPane.showInputDialog("Sorry,please input only1,2,3 or 4")));
+ 			top=(Integer.parseInt(JOptionPane.showInputDialog("Sorry,please input only 1, 2, 3 or 4")));
  			 order.setTopping(top);
  		}
          

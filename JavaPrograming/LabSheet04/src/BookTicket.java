@@ -18,7 +18,7 @@ public class BookTicket {
 		
 		booking.setSeatName(seatName);
 
-		while (booking.checkSeatName()==false) {
+		while (booking.checkSeatName() == false) {
 			seatName = JOptionPane.showInputDialog("Input seat name, again : ");
 			
 			booking.setSeatName(seatName);
